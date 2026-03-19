@@ -1,0 +1,3 @@
+SELECT CUSTOMER_ID,
+SUM(order_amount) as total_order_amount
+FROM PUBLIC.TRANSACTIONS GROUP BY CUSTOMER_ID
