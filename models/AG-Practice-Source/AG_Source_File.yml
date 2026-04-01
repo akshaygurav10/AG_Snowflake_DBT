@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ag_source
+    database: raw
+    schema: dbt_agurav
+
+    tables:
+      - name: AG_STG_CUSTOMER
